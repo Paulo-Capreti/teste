@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Entrar | JWT Lab</title><link rel="stylesheet" href="style.css"><script src="login.js" defer></script></head>
+<body><header class="brand"><span class="logo">J.</span> JWT LAB <span class="tag">AULA 15</span></header>
+<main class="login-layout"><section class="intro"><p class="eyebrow">LABORATÓRIO DE AUTENTICAÇÃO</p><h1>Seu acesso<br>começa <span>aqui.</span></h1><p>Entre para acessar seu perfil e consultar as informações do token.</p><div class="parts"><span>01 · Header</span><span>02 · Payload</span><span>03 · Signature</span></div></section>
+<section class="card"><p class="eyebrow">01 / ACESSO</p><h2>Acesse sua conta</h2><p>Informe seu e-mail e sua senha.</p>
+<form id="login-form" novalidate><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="off" placeholder="aluno@exemplo.com" required aria-describedby="email-erro"><small id="email-erro" class="error"></small>
+<label for="senha">Senha</label><input id="senha" name="senha" type="password" autocomplete="off" placeholder="Digite sua senha" required aria-describedby="senha-erro"><small id="senha-erro" class="error"></small>
+<button type="submit">Entrar <span aria-hidden="true">→</span></button><p id="mensagem" role="status" aria-live="polite"></p></form>
+<a class="subtle" href="area.html">Ir para a área restrita →</a></section></main><footer>HTML · CSS · JavaScript <span>Laboratório JWT</span></footer></body></html>
